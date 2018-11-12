@@ -1,0 +1,30 @@
+{
+"manifest_version": 2,
+"name": "Text Templates",
+"description": "Шаблоны текста",
+"version": "1.0",
+//"icons": {
+//"128": "ico.png"
+//},
+"browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+},
+"permissions": [
+	//"activeTab",
+	// "http://*",
+	// "http://*/*",
+	// "https://*",
+	// "https://*/*",
+	"contextMenus"
+],
+"icons": {
+"16" : "icon16.png",
+//"32" : "32.png",
+"48" : "icon48.png", 
+"128" : "icon128.png"
+},
+"background": {
+    "scripts": ["code.js"]
+}
+}
